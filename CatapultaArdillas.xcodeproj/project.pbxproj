@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		830CFB9E21FB52DC000056D7 /* catapult_cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9D21FB52DC000056D7 /* catapult_cup.png */; };
+		830CFBA021FB6194000056D7 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9F21FB6194000056D7 /* Explosion.sks */; };
+		83A7213A21F216F80078CDF8 /* Nivel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213921F216F80078CDF8 /* Nivel1.sks */; };
+		83A7213C21F21FB70078CDF8 /* acorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213B21F21FB60078CDF8 /* acorn2.png */; };
 		83AE3E9721F0DFFF001BC77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3E9621F0DFFF001BC77B /* AppDelegate.swift */; };
 		83AE3E9921F0DFFF001BC77B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3E9821F0DFFF001BC77B /* GameScene.sks */; };
 		83AE3E9B21F0DFFF001BC77B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3E9A21F0DFFF001BC77B /* Actions.sks */; };
@@ -15,9 +19,29 @@
 		83AE3EA221F0DFFF001BC77B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EA021F0DFFF001BC77B /* Main.storyboard */; };
 		83AE3EA421F0DFFF001BC77B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EA321F0DFFF001BC77B /* Assets.xcassets */; };
 		83AE3EA721F0DFFF001BC77B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EA521F0DFFF001BC77B /* LaunchScreen.storyboard */; };
+		83AE3EBE21F0E0CE001BC77B /* brick_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EAE21F0E0CD001BC77B /* brick_3.png */; };
+		83AE3EBF21F0E0CE001BC77B /* brick_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EAF21F0E0CD001BC77B /* brick_2.png */; };
+		83AE3EC021F0E0CE001BC77B /* catapult_arm.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB021F0E0CD001BC77B /* catapult_arm.png */; };
+		83AE3EC121F0E0CE001BC77B /* brick_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB121F0E0CD001BC77B /* brick_1.png */; };
+		83AE3EC221F0E0CE001BC77B /* catapult_base_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB221F0E0CD001BC77B /* catapult_base_2.png */; };
+		83AE3EC321F0E0CE001BC77B /* fg.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB321F0E0CD001BC77B /* fg.png */; };
+		83AE3EC421F0E0CE001BC77B /* catapult_base_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB421F0E0CE001BC77B /* catapult_base_1.png */; };
+		83AE3EC621F0E0CE001BC77B /* squirrel_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB621F0E0CE001BC77B /* squirrel_2.png */; };
+		83AE3EC721F0E0CE001BC77B /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB721F0E0CE001BC77B /* fire.png */; };
+		83AE3EC821F0E0CE001BC77B /* acorn.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB821F0E0CE001BC77B /* acorn.png */; };
+		83AE3EC921F0E0CE001BC77B /* head_cat.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EB921F0E0CE001BC77B /* head_cat.png */; };
+		83AE3ECA21F0E0CE001BC77B /* brick_platform.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EBA21F0E0CE001BC77B /* brick_platform.png */; };
+		83AE3ECB21F0E0CE001BC77B /* head_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EBB21F0E0CE001BC77B /* head_dog.png */; };
+		83AE3ECC21F0E0CE001BC77B /* squirrel_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EBC21F0E0CE001BC77B /* squirrel_1.png */; };
+		83AE3ECD21F0E0CE001BC77B /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3EBD21F0E0CE001BC77B /* bg.png */; };
+		83AE3ED021F0E416001BC77B /* catapult_armLargo.png in Resources */ = {isa = PBXBuildFile; fileRef = 83AE3ECF21F0E416001BC77B /* catapult_armLargo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		830CFB9D21FB52DC000056D7 /* catapult_cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_cup.png; sourceTree = "<group>"; };
+		830CFB9F21FB6194000056D7 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		83A7213921F216F80078CDF8 /* Nivel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Nivel1.sks; sourceTree = "<group>"; };
+		83A7213B21F21FB60078CDF8 /* acorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn2.png; sourceTree = "<group>"; };
 		83AE3E9321F0DFFF001BC77B /* CatapultaArdillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatapultaArdillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83AE3E9621F0DFFF001BC77B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83AE3E9821F0DFFF001BC77B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -28,6 +52,22 @@
 		83AE3EA321F0DFFF001BC77B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83AE3EA621F0DFFF001BC77B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83AE3EA821F0DFFF001BC77B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83AE3EAE21F0E0CD001BC77B /* brick_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_3.png; sourceTree = "<group>"; };
+		83AE3EAF21F0E0CD001BC77B /* brick_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_2.png; sourceTree = "<group>"; };
+		83AE3EB021F0E0CD001BC77B /* catapult_arm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_arm.png; sourceTree = "<group>"; };
+		83AE3EB121F0E0CD001BC77B /* brick_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_1.png; sourceTree = "<group>"; };
+		83AE3EB221F0E0CD001BC77B /* catapult_base_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_base_2.png; sourceTree = "<group>"; };
+		83AE3EB321F0E0CD001BC77B /* fg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fg.png; sourceTree = "<group>"; };
+		83AE3EB421F0E0CE001BC77B /* catapult_base_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_base_1.png; sourceTree = "<group>"; };
+		83AE3EB621F0E0CE001BC77B /* squirrel_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel_2.png; sourceTree = "<group>"; };
+		83AE3EB721F0E0CE001BC77B /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		83AE3EB821F0E0CE001BC77B /* acorn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn.png; sourceTree = "<group>"; };
+		83AE3EB921F0E0CE001BC77B /* head_cat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_cat.png; sourceTree = "<group>"; };
+		83AE3EBA21F0E0CE001BC77B /* brick_platform.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brick_platform.png; sourceTree = "<group>"; };
+		83AE3EBB21F0E0CE001BC77B /* head_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head_dog.png; sourceTree = "<group>"; };
+		83AE3EBC21F0E0CE001BC77B /* squirrel_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = squirrel_1.png; sourceTree = "<group>"; };
+		83AE3EBD21F0E0CE001BC77B /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		83AE3ECF21F0E416001BC77B /* catapult_armLargo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_armLargo.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +100,45 @@
 		83AE3E9521F0DFFF001BC77B /* CatapultaArdillas */ = {
 			isa = PBXGroup;
 			children = (
+				83AE3ECE21F0E0E1001BC77B /* imagenes */,
 				83AE3E9621F0DFFF001BC77B /* AppDelegate.swift */,
 				83AE3E9821F0DFFF001BC77B /* GameScene.sks */,
 				83AE3E9A21F0DFFF001BC77B /* Actions.sks */,
 				83AE3E9C21F0DFFF001BC77B /* GameScene.swift */,
 				83AE3E9E21F0DFFF001BC77B /* GameViewController.swift */,
+				83A7213921F216F80078CDF8 /* Nivel1.sks */,
 				83AE3EA021F0DFFF001BC77B /* Main.storyboard */,
 				83AE3EA321F0DFFF001BC77B /* Assets.xcassets */,
 				83AE3EA521F0DFFF001BC77B /* LaunchScreen.storyboard */,
 				83AE3EA821F0DFFF001BC77B /* Info.plist */,
+				830CFB9F21FB6194000056D7 /* Explosion.sks */,
 			);
 			path = CatapultaArdillas;
+			sourceTree = "<group>";
+		};
+		83AE3ECE21F0E0E1001BC77B /* imagenes */ = {
+			isa = PBXGroup;
+			children = (
+				830CFB9D21FB52DC000056D7 /* catapult_cup.png */,
+				83A7213B21F21FB60078CDF8 /* acorn2.png */,
+				83AE3ECF21F0E416001BC77B /* catapult_armLargo.png */,
+				83AE3EB821F0E0CE001BC77B /* acorn.png */,
+				83AE3EBD21F0E0CE001BC77B /* bg.png */,
+				83AE3EB121F0E0CD001BC77B /* brick_1.png */,
+				83AE3EAF21F0E0CD001BC77B /* brick_2.png */,
+				83AE3EAE21F0E0CD001BC77B /* brick_3.png */,
+				83AE3EBA21F0E0CE001BC77B /* brick_platform.png */,
+				83AE3EB021F0E0CD001BC77B /* catapult_arm.png */,
+				83AE3EB421F0E0CE001BC77B /* catapult_base_1.png */,
+				83AE3EB221F0E0CD001BC77B /* catapult_base_2.png */,
+				83AE3EB321F0E0CD001BC77B /* fg.png */,
+				83AE3EB721F0E0CE001BC77B /* fire.png */,
+				83AE3EB921F0E0CE001BC77B /* head_cat.png */,
+				83AE3EBB21F0E0CE001BC77B /* head_dog.png */,
+				83AE3EBC21F0E0CE001BC77B /* squirrel_1.png */,
+				83AE3EB621F0E0CE001BC77B /* squirrel_2.png */,
+			);
+			path = imagenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,11 +200,31 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83AE3EC021F0E0CE001BC77B /* catapult_arm.png in Resources */,
+				83AE3EC221F0E0CE001BC77B /* catapult_base_2.png in Resources */,
 				83AE3EA221F0DFFF001BC77B /* Main.storyboard in Resources */,
+				83AE3EC121F0E0CE001BC77B /* brick_1.png in Resources */,
+				83A7213A21F216F80078CDF8 /* Nivel1.sks in Resources */,
+				83AE3ECC21F0E0CE001BC77B /* squirrel_1.png in Resources */,
+				83AE3ECA21F0E0CE001BC77B /* brick_platform.png in Resources */,
 				83AE3E9921F0DFFF001BC77B /* GameScene.sks in Resources */,
+				83AE3EC321F0E0CE001BC77B /* fg.png in Resources */,
+				83AE3EC421F0E0CE001BC77B /* catapult_base_1.png in Resources */,
 				83AE3EA421F0DFFF001BC77B /* Assets.xcassets in Resources */,
+				83AE3ED021F0E416001BC77B /* catapult_armLargo.png in Resources */,
+				830CFBA021FB6194000056D7 /* Explosion.sks in Resources */,
+				83AE3EC921F0E0CE001BC77B /* head_cat.png in Resources */,
+				83AE3ECD21F0E0CE001BC77B /* bg.png in Resources */,
 				83AE3EA721F0DFFF001BC77B /* LaunchScreen.storyboard in Resources */,
 				83AE3E9B21F0DFFF001BC77B /* Actions.sks in Resources */,
+				830CFB9E21FB52DC000056D7 /* catapult_cup.png in Resources */,
+				83AE3EBF21F0E0CE001BC77B /* brick_2.png in Resources */,
+				83AE3EC721F0E0CE001BC77B /* fire.png in Resources */,
+				83A7213C21F21FB70078CDF8 /* acorn2.png in Resources */,
+				83AE3EC621F0E0CE001BC77B /* squirrel_2.png in Resources */,
+				83AE3ECB21F0E0CE001BC77B /* head_dog.png in Resources */,
+				83AE3EBE21F0E0CE001BC77B /* brick_3.png in Resources */,
+				83AE3EC821F0E0CE001BC77B /* acorn.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
