@@ -105,6 +105,11 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             }
             if (contact.bodyA.categoryBitMask == 6) || (contact.bodyB.categoryBitMask == 6){  //es un perro
                 print ("contacto sucedido entre un perro y una bellota")
+                let emisor = SKEmitterNode(fileNamed: "ExplosionPerros.sks")
+                emisor?.position = contact.contactPoint
+                addChild(emisor!)
+                contact.bodyA.node?.removeFromParent()
+                contact.bodyB.node?.removeFromParent()
             }
         }
     }
