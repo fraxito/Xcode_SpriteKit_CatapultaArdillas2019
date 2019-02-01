@@ -18,6 +18,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var salidaBellotas : SKNode!
     var disparoCamara = SKSpriteNode()
     
+    var puntuacion = 0
+    var etiquetaMarcador : SKLabelNode!
+    
     
  
     override func didMove(to view: SKView) {
@@ -31,9 +34,18 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         creaMuelle()
         creaCazo()
         self.physicsWorld.contactDelegate = self
+        etiquetaMarcador = camera?.childNode(withName: "marcador") as! SKLabelNode
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        let touchedNode = self.atPoint(touches.first!.location(in: self))
+        
+        if let name = touchedNode.name {
+            if name == "reiniciar" {
+                reiniciarPartida()
+            }
+        }
+        
         catapulta.removeAllActions()
         catapulta.run(giroIzq)
         
@@ -49,6 +61,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         disparoCamara = disparo
         addChild(disparo)
         self.camera?.position.x = UIScreen.main.bounds.width / 2
+            
+            
+        
     }
     
     
@@ -78,7 +93,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         //creo el muelle y lo añado
         
         let muelle = SKPhysicsJointSpring.joint(withBodyA: anclajeMuelle.physicsBody!, bodyB: catapulta.physicsBody!, anchorA: anclajeMuelle.position, anchorB: anclajeMuelle.position)
-        muelle.frequency = 1   //fuerza del muelle
+        muelle.frequency = 0.8   //fuerza del muelle
         muelle.damping = 0.2   //rebote del muelle
         scene?.physicsWorld.add(muelle)
         
@@ -102,6 +117,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 addChild(emisor!)
                 contact.bodyA.node?.removeFromParent()
                 contact.bodyB.node?.removeFromParent()
+                puntuacion = puntuacion + 10
+                actualizaMarcador()
             }
             if (contact.bodyA.categoryBitMask == 6) || (contact.bodyB.categoryBitMask == 6){  //es un perro
                 print ("contacto sucedido entre un perro y una bellota")
@@ -110,11 +127,26 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
                 addChild(emisor!)
                 contact.bodyA.node?.removeFromParent()
                 contact.bodyB.node?.removeFromParent()
+                puntuacion = puntuacion + 20
+                actualizaMarcador()
             }
         }
     }
     
     
+    
+    func actualizaMarcador() {
+        etiquetaMarcador.text = String(puntuacion)
+    }
+    
+    func reiniciarPartida(){
+        if let view = self.view {
+            if let scene = SKScene(fileNamed: "GameScene") {
+                scene.scaleMode = .aspectFill
+                view.presentScene(scene)
+            }
+        }
+    }
     
     
     

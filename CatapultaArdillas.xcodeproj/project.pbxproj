@@ -10,6 +10,7 @@
 		830CFB9E21FB52DC000056D7 /* catapult_cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9D21FB52DC000056D7 /* catapult_cup.png */; };
 		830CFBA021FB6194000056D7 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9F21FB6194000056D7 /* Explosion.sks */; };
 		837C913522048BD70028F51E /* ExplosionPerros.sks in Resources */ = {isa = PBXBuildFile; fileRef = 837C913422048BD70028F51E /* ExplosionPerros.sks */; };
+		837C913922049B3C0028F51E /* reset.png in Resources */ = {isa = PBXBuildFile; fileRef = 837C913822049B3C0028F51E /* reset.png */; };
 		83A7213A21F216F80078CDF8 /* Nivel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213921F216F80078CDF8 /* Nivel1.sks */; };
 		83A7213C21F21FB70078CDF8 /* acorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213B21F21FB60078CDF8 /* acorn2.png */; };
 		83AE3E9721F0DFFF001BC77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3E9621F0DFFF001BC77B /* AppDelegate.swift */; };
@@ -42,6 +43,7 @@
 		830CFB9D21FB52DC000056D7 /* catapult_cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_cup.png; sourceTree = "<group>"; };
 		830CFB9F21FB6194000056D7 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 		837C913422048BD70028F51E /* ExplosionPerros.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionPerros.sks; sourceTree = "<group>"; };
+		837C913822049B3C0028F51E /* reset.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reset.png; sourceTree = "<group>"; };
 		83A7213921F216F80078CDF8 /* Nivel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Nivel1.sks; sourceTree = "<group>"; };
 		83A7213B21F21FB60078CDF8 /* acorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn2.png; sourceTree = "<group>"; };
 		83AE3E9321F0DFFF001BC77B /* CatapultaArdillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatapultaArdillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +124,7 @@
 		83AE3ECE21F0E0E1001BC77B /* imagenes */ = {
 			isa = PBXGroup;
 			children = (
+				837C913822049B3C0028F51E /* reset.png */,
 				830CFB9D21FB52DC000056D7 /* catapult_cup.png */,
 				83A7213B21F21FB60078CDF8 /* acorn2.png */,
 				83AE3ECF21F0E416001BC77B /* catapult_armLargo.png */,
@@ -204,6 +207,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83AE3EC021F0E0CE001BC77B /* catapult_arm.png in Resources */,
+				837C913922049B3C0028F51E /* reset.png in Resources */,
 				83AE3EC221F0E0CE001BC77B /* catapult_base_2.png in Resources */,
 				83AE3EA221F0DFFF001BC77B /* Main.storyboard in Resources */,
 				83AE3EC121F0E0CE001BC77B /* brick_1.png in Resources */,
