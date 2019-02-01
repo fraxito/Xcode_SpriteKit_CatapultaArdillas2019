@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		830CFB9E21FB52DC000056D7 /* catapult_cup.png in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9D21FB52DC000056D7 /* catapult_cup.png */; };
 		830CFBA021FB6194000056D7 /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 830CFB9F21FB6194000056D7 /* Explosion.sks */; };
+		837C913522048BD70028F51E /* ExplosionPerros.sks in Resources */ = {isa = PBXBuildFile; fileRef = 837C913422048BD70028F51E /* ExplosionPerros.sks */; };
 		83A7213A21F216F80078CDF8 /* Nivel1.sks in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213921F216F80078CDF8 /* Nivel1.sks */; };
 		83A7213C21F21FB70078CDF8 /* acorn2.png in Resources */ = {isa = PBXBuildFile; fileRef = 83A7213B21F21FB60078CDF8 /* acorn2.png */; };
 		83AE3E9721F0DFFF001BC77B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83AE3E9621F0DFFF001BC77B /* AppDelegate.swift */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		830CFB9D21FB52DC000056D7 /* catapult_cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = catapult_cup.png; sourceTree = "<group>"; };
 		830CFB9F21FB6194000056D7 /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
+		837C913422048BD70028F51E /* ExplosionPerros.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ExplosionPerros.sks; sourceTree = "<group>"; };
 		83A7213921F216F80078CDF8 /* Nivel1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Nivel1.sks; sourceTree = "<group>"; };
 		83A7213B21F21FB60078CDF8 /* acorn2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = acorn2.png; sourceTree = "<group>"; };
 		83AE3E9321F0DFFF001BC77B /* CatapultaArdillas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatapultaArdillas.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +114,7 @@
 				83AE3EA521F0DFFF001BC77B /* LaunchScreen.storyboard */,
 				83AE3EA821F0DFFF001BC77B /* Info.plist */,
 				830CFB9F21FB6194000056D7 /* Explosion.sks */,
+				837C913422048BD70028F51E /* ExplosionPerros.sks */,
 			);
 			path = CatapultaArdillas;
 			sourceTree = "<group>";
@@ -208,6 +211,7 @@
 				83AE3ECC21F0E0CE001BC77B /* squirrel_1.png in Resources */,
 				83AE3ECA21F0E0CE001BC77B /* brick_platform.png in Resources */,
 				83AE3E9921F0DFFF001BC77B /* GameScene.sks in Resources */,
+				837C913522048BD70028F51E /* ExplosionPerros.sks in Resources */,
 				83AE3EC321F0E0CE001BC77B /* fg.png in Resources */,
 				83AE3EC421F0E0CE001BC77B /* catapult_base_1.png in Resources */,
 				83AE3EA421F0DFFF001BC77B /* Assets.xcassets in Resources */,
